@@ -1,0 +1,53 @@
+
+.header {
+  display: flex;
+  position: sticky;
+
+  /* 스크롤업되는 컨텐츠 위로 올라오도록 */
+  z-index: 3;
+
+  top: 0;
+  height: var(--height-toolbar);
+  justify-content: center;
+  align-items: center;
+  color: #fffF;
+
+  background-color: var(--color-nav-main);
+}
+
+.header__nav-item {
+  font-family: var(--font-title);
+  font-size: var(--font-size-title);
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.header__nav-item a {
+  /* 클릭 영역 확대 */
+  display: inline-block;
+  height: var(--height-toolbar);
+  line-height: var(--height-toolbar);
+}
+
+.header__nav-item a {
+  padding: 0 0.8em;
+}
+
+.header__nav-item::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background-color: #C4ABE1;
+  transition: all 350ms;
+}
+.header__nav-item:hover::after {
+  left: 0;
+  width: 100%;
+  height: 15px;
+}

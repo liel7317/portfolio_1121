@@ -1,0 +1,75 @@
+#career {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: var(--color-light-bg);
+}
+.career {
+  margin-top: 3em;
+}
+#career {
+  grid-column: 1/-1;
+}
+
+
+.contact__tab {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 라디오 버튼 커스터마이즈 */
+input[type=radio] {
+  all: unset;
+  display: inline-block;
+  padding-top: 30px;
+  padding: 12px;
+  margin: 15px;
+  background-color: var(--color-main);
+  cursor: pointer;
+}
+input[type=radio]:checked {
+  color: #433B53;
+  background-color: #433B53;
+}
+#ct_1 { border-radius: 12px 12px 12px 12px; }
+#ct_2 { border-radius: 12px 12px 12px 12px;  }
+#ct_3 { border-radius: 12px 12px 12px 12px;  }
+#ct_4 { border-radius: 12px 12px 12px 12px;  }
+
+
+.contact__slides {
+  /* margin: 1.6em 0; */
+  width: 100vw;
+  overflow: hidden;
+}
+.contact__slide-con {
+  display: flex;
+  width: 400vw;
+  transition: margin-left 500ms;
+}
+.contact__slide {
+  width: 100vw;
+  background-color: #FBF8FF;
+}
+
+
+#ct_1:checked ~ .contact__slides .contact__slide-con {
+  margin-left: 0;
+}
+#ct_2:checked ~ .contact__slides .contact__slide-con {
+  margin-left: -100vw;
+}
+
+#ct_3:checked ~ .contact__slides .contact__slide-con {
+  margin-left: -200vw;
+}
+
+#ct_4:checked ~ .contact__slides .contact__slide-con {
+  margin-left: -300vw;
+}
+
+.company_logo 
+{
+transform: scale(0.8);
+
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;500;700&display=swap');
+
+@import url(./portfolio_css/1_typo.css);
+
+/* =========== 변수구간 ========= */
+
+:root {
+  --color-main: #E5DCEF;
+  --color-sub: #FBF8FF;
+  --color-dark: #8a8a8a;
+  --color-text: #8B8B8B;
+  --color-nav-main:#DBCBEE;
+  --color-section-title:#433B53;
+
+  --font-title:'Nanum Myeongjo', serif;
+  --font-subtitle:'Noto Sans KR', sans-serif;
+  --font-main-subtitle:'Do Hyeon', sans-serif;
+
+  --font-size-title: 36px;
+  --font-size-subtitle: 20px;
+
+
+}
+
+/* ===== 리셋 구간 ===== */
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif,'Do Hyeon';
+  /* 개발용 설정 */
+ 
+  /* width: 100vw; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+strong, em {
+  font-weight: inherit;
+  font-style: normal;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+dl { margin: 0; }
+dd {
+  margin: 0;
+  display: inline;
+}
+
+figure { margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
