@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: row; 
   position: relative;
+  
 
 }
 
@@ -10,9 +11,10 @@ display: flex;
 position: sticky;
 background-color: var(--color-main);
 width: 20vw;
-height: 100vh;
+height: 96.8vh;
 flex-grow: 1;
-padding: 1.5em;
+padding: 1em;
+top: 0;
 }
 
 main {
@@ -62,15 +64,15 @@ main {
   color: var(--color-section-title);
   padding: 5px;
   width: 20vw;
-  height: 40px;
-  text-align: center;
+  height: 30px;
+  /* text-align: center; */
   
 }
 
 li>a {
-  padding-right: 10vw;
+
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .header__nav-item:hover {
@@ -84,6 +86,7 @@ li>a {
 display: flex;
 justify-content: center;
 flex-direction: column;
+align-items: center;
 padding: 30px;
 }
 
@@ -93,12 +96,13 @@ padding: 30px;
   justify-content: center;
   width: 70vw;
   background-color: rgba(234, 235, 241, 0.788);
-  padding: 2em;
-  padding-top: 80px;
+  padding-top: 50px;
   border-radius: 30px;
   gap: 50px;
   align-content: center;
   align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .typo__img_bord_ps{
@@ -124,21 +128,126 @@ padding: 0.5em;
 
 .typo__bord_li {
 padding-top: 3px;
-font-size: 18px;
+font-size: 14px;
 color: var(--color-section-title);
 }
 
 .typo__bord_in_img_1{
 width: 20vw;
 height: 30vh;
-background-image: url(./moon.png);
+background-image: url(./typo/1_1.png);
 background-size: contain;
+background-repeat: no-repeat;
 }
 
 
 .typo__bord_in_img_detail_1 {
-  background-image: url(./moon.png);
-  width: 55vw;
-  height: 3000px;
+  background-image: url(./typo/1_2.png);
+  width: 60vw;
+    height: 45vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+.typo__bord_in_img_2{
+  width: 20vw;
+  height: 30vh;
+  background-image: url(./typo/2_1.png);
   background-size: contain;
-}
+  background-repeat: no-repeat;
+  }
+
+  .typo__bord_in_img_detail_2 {
+    background-image: url(./typo/2_2.png);
+    width: 60vw;
+    height: 45vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+
+  .typo__bord_in_img_3{
+    width: 20vw;
+    height: 30vh;
+    background-image: url(./typo/3_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+  
+    .typo__bord_in_img_detail_3 {
+      background-image: url(./typo/3_2.png);
+      width: 60vw;
+      height: 45vh;
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    
+
+    .typo__bord_in_img_4{
+      width: 20vw;
+      height: 30vh;
+      background-image: url(./typo/4_1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      }
+    
+      .typo__bord_in_img_detail_4>img {
+        width: 60vw;
+        object-fit: contain;
+      }
+
+
+      .typo__bord_in_img_5{
+        width: 20vw;
+        height: 30vh;
+        background-image: url(./typo/5_1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        }
+      
+        .typo__bord_in_img_detail_5>img {
+          width: 60vw;
+          object-fit: contain;
+        }
+
+        .typo__bord_in_img_6{
+          width: 20vw;
+          height: 30vh;
+          background-image: url(./typo/6_1.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          }
+        
+          .typo__bord_in_img_detail_6>img {
+            width: 60vw;
+            object-fit: contain;
+          }
+
+          .typo__bord_in_img_7{
+            width: 20vw;
+            height: 30vh;
+            background-image: url(./typo/7_1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+          
+            .typo__bord_in_img_detail_7>img {
+              width: 60vw;
+              object-fit: contain;
+            }
+
+            .typo__bord_in_img_8{
+              width: 20vw;
+              height: 30vh;
+              background-image: url(./typo/8_1.png);
+              background-size: contain;
+              background-repeat: no-repeat;
+              }
+            
+              .typo__bord_in_img_detail_8>img {
+                width: 35vw;
+                object-fit: contain;
+              }

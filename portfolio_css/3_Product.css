@@ -1,0 +1,225 @@
+body{
+  display: flex;
+  flex-direction: row; 
+  position: relative;
+  
+
+}
+
+.header_nav {
+display: flex;
+position: sticky;
+background-color: var(--color-main);
+width: 20vw;
+height: 96.8vh;
+flex-grow: 1;
+padding: 1em;
+top: 0;
+}
+
+main {
+  background-color: rgb(255, 255, 250);
+  flex-grow: 1;
+  width: 80vw;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: center;
+
+}
+
+.home_logo{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 100px;
+  background-position: center;
+  object-fit: contain;
+  text-align: center;
+  background-image: url(./홈버튼.png);
+}
+
+
+
+.home_logo>a{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.home_logo:hover {
+  background-image: url(./홈버튼_2.png);
+  transition: all 0.17s ease-in-out;
+}
+
+
+.header__nav-item{
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: var(--font-subtitle);
+  font-weight: 500;
+  color: var(--color-section-title);
+  padding: 5px;
+  width: 20vw;
+  height: 30px;
+  /* text-align: center; */
+  
+}
+
+li>a {
+
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.header__nav-item:hover {
+  background-color: var(--color-section-title);
+  color: rgb(212, 211, 211);
+  transition: background-color 0.5s;
+  border-radius: 10px;
+}
+
+.img__bord {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+}
+
+.pd__img_bord {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70vw;
+  background-color: rgba(234, 235, 241, 0.788);
+  padding-top: 50px;
+  border-radius: 30px;
+  gap: 50px;
+  align-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.pd__img_bord_ps{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  }
+
+
+.pd__bord_p {
+  width: 30vw;
+  font-family: var(--font-subtitle);
+  }
+
+.pd__bord_ul {
+font-size: 14px;
+color: var(--color-text);
+padding: 0.5em;
+}
+
+.pd__bord_li {
+padding-top: 3px;
+font-size: 14px;
+color: var(--color-section-title);
+}
+
+
+.pd__bord_in_img_1{
+  background-position: center;
+  width: 20vw;
+  height: 30vh;
+  background-image: url(./pd/1_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  }
+
+  .pd__bord_in_img_detail_1>img {
+    width: 35vw;
+    object-fit: contain;
+
+  }
+
+  .pd__bord_in_img_2{
+    background-position: center;
+    width: 20vw;
+    height: 30vh;
+    background-image: url(./pd/2_1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+  
+    .pd__bord_in_img_detail_2>img {
+      width: 35vw;
+      object-fit: contain;
+  
+    }
+  
+
+    .pd__bord_in_img_3{
+      background-position: center;
+      width: 20vw;
+      height: 30vh;
+      background-image: url(./pd/3_1.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      }
+    
+      .pd__bord_in_img_detail_3>img {
+        width: 35vw;
+        object-fit: contain;
+    
+      }
+
+      .pd__bord_in_img_4{
+        background-position: center;
+        width: 20vw;
+        height: 30vh;
+        background-image: url(./pd/4_1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        }
+      
+        .pd__bord_in_img_detail_4>img {
+          width: 35vw;
+          object-fit: contain;
+      
+        }
+
+        .pd__bord_in_img_5{
+          background-position: center;
+          width: 20vw;
+          height: 30vh;
+          background-image: url(./pd/5_1.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          }
+        
+          .pd__bord_in_img_detail_5>img {
+            width: 35vw;
+            object-fit: contain;
+        
+          }
+
+          .pd__bord_in_img_6{
+            background-position: center;
+            width: 20vw;
+            height: 30vh;
+            background-image: url(./pd/6_1.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            }
+          
+            .pd__bord_in_img_detail_6>img {
+              width: 35vw;
+              object-fit: contain;
+          
+            }

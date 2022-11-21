@@ -11,8 +11,8 @@ background-color: #ebe5f1;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   margin-top: 48px;
-  row-gap: 150px;
-  padding: 100px;
+  row-gap: 50px;
+  padding: 200px;
 }
 
 .works__card{
